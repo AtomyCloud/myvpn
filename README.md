@@ -1,4 +1,33 @@
-# MyVPN for Android — Release Notes  
+<div align="center">
+
+# MyVPN
+
+### Premium VPN experience for Android and iOS
+
+Secure. Fast. Simple. Modern.
+
+<p>
+  <a href="https://github.com/AtomyCloud/myvpn/releases">
+    <img src="https://img.shields.io/badge/GitHub-Releases-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Releases">
+  </a>
+  <a href="https://play.google.com/store/apps/details?id=app.myvpn.atomy">
+    <img src="https://img.shields.io/badge/Google%20Play-Download-34A853?style=for-the-badge&logo=google-play&logoColor=white" alt="Google Play">
+  </a>
+  <a href="https://apps.apple.com/app/id0000000000">
+    <img src="https://img.shields.io/badge/App%20Store-Download-0D96F6?style=for-the-badge&logo=apple&logoColor=white" alt="App Store">
+  </a>
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Version-1.0.0-8A2BE2?style=flat-square" alt="Version 1.0.0">
+  <img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=flat-square" alt="Android">
+  <img src="https://img.shields.io/badge/Protocols-OpenVPN%20%7C%20VeRay%20%7C%20WireGuard-00C2FF?style=flat-square" alt="Protocols">
+  <img src="https://img.shields.io/badge/Servers-Free%20%26%20Premium-FF4FD8?style=flat-square" alt="Servers">
+</p>
+
+</div>
+
+# MyVPN for Android - Release Notes  
 ## Latest Version 1.0.0
 
 We are excited to announce the **first release of MyVPN for Android**.
