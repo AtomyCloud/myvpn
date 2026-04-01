@@ -12,7 +12,7 @@ MyVPN arrives with a modern and simple experience for users who want more **priv
 Choose your preferred platform to download **MyVPN**:
 
 - **GitHub:** [Download from GitHub](https://github.com/AtomyCloud/myvpn/releases/download/v1.0.0/app.myvpn.atomy.v1.0.0-app-arm64-v8a-release.apk)
-- **Google Play:** [Download on Google Play](https://play.google.com/store/apps/details?id=app.myvpn.com)
+- **Google Play:** [Download on Google Play](https://play.google.com/store/apps/details?id=app.myvpn.atomy)
 - **Apple App Store:** [Download on the App Store](https://apps.apple.com/app/id0000000000)
 
 ---
