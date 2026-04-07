@@ -1393,3 +1393,220 @@ select {
     padding: 1.15rem;
   }
 }
+
+
+/* Early access / Formspree lead form */
+.lead-shell {
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+  gap: 1.5rem;
+  padding: 1.5rem;
+  align-items: start;
+}
+
+.lead-copy,
+.lead-form-card {
+  min-width: 0;
+}
+
+.lead-copy h3 {
+  margin: 1rem 0 0.85rem;
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  line-height: 1.04;
+  letter-spacing: -0.04em;
+}
+
+.lead-copy p {
+  color: var(--text-soft);
+}
+
+.lead-points {
+  list-style: none;
+  padding: 0;
+  margin: 1.4rem 0 0;
+  display: grid;
+  gap: 0.85rem;
+}
+
+.lead-points li {
+  position: relative;
+  padding-left: 1.25rem;
+  color: var(--text-soft);
+}
+
+.lead-points li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55rem;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--cyan), var(--magenta));
+  box-shadow: 0 0 16px rgba(0, 229, 255, 0.45);
+}
+
+.lead-form-card {
+  padding: 1.2rem;
+}
+
+.lead-form {
+  display: grid;
+  gap: 1rem;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.form-field,
+.form-field-full {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.form-field label,
+.form-field-full label {
+  font-size: 0.94rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.form-field label span,
+.form-field-full label span {
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.lead-form input,
+.lead-form select,
+.lead-form textarea {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.035);
+  color: var(--text);
+  padding: 0.95rem 1rem;
+  outline: none;
+  transition: border-color var(--transition), box-shadow var(--transition), background var(--transition);
+}
+
+.lead-form input::placeholder,
+.lead-form textarea::placeholder {
+  color: #8ea2bf;
+}
+
+.lead-form select {
+  appearance: none;
+}
+
+.lead-form input:hover,
+.lead-form select:hover,
+.lead-form textarea:hover,
+.lead-form input:focus,
+.lead-form select:focus,
+.lead-form textarea:focus {
+  border-color: rgba(0, 229, 255, 0.38);
+  box-shadow: 0 0 0 4px rgba(0, 229, 255, 0.08);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.field-error:empty,
+.form-alert:empty {
+  display: none;
+}
+
+.field-error {
+  color: #ffb8ef;
+  font-size: 0.86rem;
+}
+
+.form-alert {
+  border-radius: 18px;
+  padding: 0.95rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  font-size: 0.94rem;
+}
+
+.form-alert-success {
+  background: rgba(0, 229, 255, 0.08);
+  border-color: rgba(0, 229, 255, 0.22);
+  color: #dffcff;
+}
+
+.form-alert-error {
+  background: rgba(255, 43, 214, 0.08);
+  border-color: rgba(255, 43, 214, 0.22);
+  color: #ffd8f8;
+}
+
+.consent-check {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  gap: 0.8rem;
+  align-items: start;
+  color: var(--text-soft);
+  font-size: 0.94rem;
+}
+
+.consent-check input {
+  margin-top: 0.2rem;
+  min-height: auto;
+  padding: 0;
+}
+
+.form-submit-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.form-note {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  max-width: 26rem;
+}
+
+@media (max-width: 980px) {
+  .lead-shell,
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .lead-shell,
+  .lead-form-card {
+    padding: 1.15rem;
+  }
+
+  .form-submit-row {
+    align-items: stretch;
+  }
+
+  .form-submit-row .btn {
+    width: 100%;
+  }
+}
+
+
+/* Added: Early Access button above Download CTA */
+.hero-priority-action {
+  margin: 0 0 1rem;
+}
+
+.hero-priority-action .btn {
+  min-width: min(100%, 220px);
+}
+
+@media (max-width: 640px) {
+  .hero-priority-action .btn {
+    width: 100%;
+  }
+}
