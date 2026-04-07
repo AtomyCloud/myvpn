@@ -3,20 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MyVPN — Fast, Private, Secure VPN for Android & iPhone</title>
+    <title>myVPN — Fast, Private, Secure VPN for Android & iPhone</title>
     <meta
       name="description"
-      content="MyVPN is a premium VPN app for Android and iPhone built for privacy, speed, security, and effortless protection on public Wi‑Fi."
+      content="myVPN is a premium VPN app for Android and iPhone built for privacy, speed, security, and effortless protection on public Wi‑Fi."
     />
     <meta name="theme-color" content="#050816" />
-    <meta property="og:title" content="MyVPN — Fast, Private, Secure" />
+    <meta property="og:title" content="myVPN — Fast, Private, Secure" />
     <meta
       property="og:description"
       content="A premium VPN experience for Android and iOS with one‑tap protection, elegant design, and everyday privacy."
     />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="assets/images/og-image.svg" />
-    <meta property="og:url" content="https://atomycloud.github.io/myvpn" />
+    <meta property="og:url" content="https://atomycloud.github.io/myvpn/" />
     <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -70,7 +70,7 @@
           <a href="#showcase">App</a>
           <a href="#how-it-works">How it works</a>
           <a href="#faq">FAQ</a>
-          <a href="#download" class="btn btn-nav">Download</a>
+          <a href="#early-access" class="btn btn-nav">Early Access</a>
         </nav>
       </div>
     </header>
@@ -87,7 +87,7 @@
             </p>
 
             <div class="hero-actions">
-              <a href="#download" class="btn btn-primary">Download the app</a>
+              <a href="#early-access" class="btn btn-primary">Join Early Access</a>
               <a href="#features" class="btn btn-secondary">Explore features</a>
             </div>
 
@@ -373,6 +373,82 @@
         </div>
       </section>
 
+      <section class="section" id="early-access">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="eyebrow">Early Access</span>
+            <h2>Help shape myVPN before the public release.</h2>
+            <p>
+              Join the early tester list and we’ll send the Android testing invite,
+              onboarding steps, and updates for the next build.
+            </p>
+          </div>
+
+          <div class="lead-shell glass-panel reveal">
+            <div class="lead-copy">
+              <span class="pill">Focused on Android testers first</span>
+              <h3>Become a tester and help unlock the public launch.</h3>
+              <p>
+                We are recruiting early users who can install the Android test build,
+                stay enrolled during the testing window, and share practical feedback.
+                iPhone users can also join the waitlist for future access.
+              </p>
+
+              <ul class="lead-points" aria-label="Early access highlights">
+                <li>Play Store test invite and onboarding instructions</li>
+                <li>Priority updates for upcoming builds</li>
+                <li>Simple feedback path for bugs and usability notes</li>
+              </ul>
+            </div>
+
+            <div class="lead-form-card glass-card">
+              <div data-fs-success class="form-alert form-alert-success" aria-live="polite"></div>
+              <div data-fs-error class="form-alert form-alert-error" aria-live="polite"></div>
+
+              <form id="lead-form" class="lead-form" action="https://formspree.io/f/maqlvyla" method="POST">
+                <input type="hidden" name="app_name" value="myVPN" />
+                <input type="hidden" name="campaign" value="Early Access" />
+                <input type="hidden" name="source_page" value="Landing Page" />
+
+                <div class="form-grid">
+                  <div class="form-field">
+                    <label for="email">Email</label>
+                    <input
+                      id="email"
+                      type="email"
+                      name="email"
+                      placeholder="your@gmail.com"
+                      autocomplete="email"
+                      required
+                      data-fs-field
+                    />
+                    <span data-fs-error="email" class="field-error"></span>
+                  </div>
+                </div>
+
+                <label class="consent-check">
+                  <input type="checkbox" name="consent" value="Yes" required data-fs-field />
+                  <span>
+                    I agree to be contacted by Atomy Cloud about myVPN early access,
+                    testing instructions, and release updates.
+                  </span>
+                </label>
+                <span data-fs-error="consent" class="field-error"></span>
+
+                <div class="form-submit-row">
+                  <button type="submit" class="btn btn-primary" data-fs-submit-btn>
+                    Become a tester
+                  </button>
+                  <p class="form-note">
+                    Android testers are prioritized for the current closed testing phase.
+                  </p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="section" id="compatibility">
         <div class="container compatibility-shell glass-panel reveal">
           <div>
@@ -448,31 +524,24 @@
       <section class="section" id="download">
         <div class="container">
           <div class="final-cta glass-panel reveal">
-            <span class="eyebrow">Get started</span>
-            <h2>Secure your connection with a cleaner, faster VPN experience.</h2>
+            <span class="eyebrow">Stay in the loop</span>
+            <h2>Prefer store links? Keep them ready for the public release.</h2>
             <p>
-              Download myVPN for Android or iPhone and make privacy part of your daily routine.
+              Join early access first, then use the store links when the public version becomes available.
             </p>
             <div class="download-actions">
               <a href="#" class="store-badge" aria-label="Download on the App Store">
-                <span class="store-icon">❦︎</span>
+                <span class="store-icon"></span>
                 <span class="store-copy">
                   <small>Download on the</small>
                   <strong>App Store</strong>
                 </span>
               </a>
-              <a href="https://play.google.com/store/apps/details?id=app.myvpn.atomy" class="store-badge" aria-label="Get it on Google Play">
+              <a href="#" class="store-badge" aria-label="Get it on Google Play">
                 <span class="store-icon">▶</span>
                 <span class="store-copy">
                   <small>Get it on</small>
                   <strong>Google Play</strong>
-                </span>
-              </a>
-              <a href="https://github.com/AtomyCloud/myvpn/releases/download/v1.0.3/app.myvpn.atomy.v1.0.3-4.app-arm64-v8a-release.apk" class="store-badge" aria-label="Get it on Github">
-                <span class="store-icon">⚛</span>
-                <span class="store-copy">
-                  <small>Get it on</small>
-                  <strong>GitHub</strong>
                 </span>
               </a>
             </div>
@@ -506,6 +575,13 @@
       </div>
     </footer>
 
+    <script>
+      window.formspree = window.formspree || function () {
+        (formspree.q = formspree.q || []).push(arguments);
+      };
+      formspree('initForm', { formElement: '#lead-form', formId: 'maqlvyla' });
+    </script>
+    <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
     <script src="js/script.js"></script>
   </body>
 </html>
