@@ -66,3 +66,21 @@ faqItems.forEach((item) => {
     });
   });
 });
+
+
+const leadForm = document.getElementById('lead-form');
+const sourcePageField = leadForm?.querySelector('input[name="source_page"]');
+
+if (sourcePageField) {
+  sourcePageField.value = window.location.href;
+}
+
+if (leadForm) {
+  leadForm.addEventListener('submit', () => {
+    const successBox = document.querySelector('[data-fs-success]');
+    const errorBox = document.querySelector('[data-fs-error]');
+
+    if (successBox) successBox.textContent = '';
+    if (errorBox) errorBox.textContent = '';
+  });
+}
