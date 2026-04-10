@@ -36,7 +36,7 @@ Secure. Fast. Simple. Modern.
 
 - **BugFixes**
 
-===============================================================================================  
+---
 
 We are excited to announce the **first release of MyVPN for Android**.
 
