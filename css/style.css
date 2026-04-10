@@ -671,7 +671,7 @@ select {
 .showcase-grid,
 .steps-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1.1rem;
 }
 
@@ -1682,6 +1682,7 @@ select {
   top: calc(100% + 0.75rem);
   right: 0;
   display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 0.5rem;
   padding: 0.65rem;
   border-radius: 20px;
@@ -1695,6 +1696,9 @@ select {
   backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
   z-index: 30;
+  max-height: min(65vh, 360px);
+  overflow: auto;
+  min-width: 340px;
 }
 
 .lang-switcher.is-open .lang-switcher__menu {
@@ -1728,7 +1732,7 @@ select {
     display: none;
     margin-top: 0.15rem;
     width: 100%;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .lang-switcher.is-open .lang-switcher__menu {

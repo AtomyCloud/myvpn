@@ -4,9 +4,10 @@
   if (!switchers.length) return;
 
   const html = document.documentElement;
-  const currentLang = html.dataset.currentLang || 'en';
+  const currentLang = html.dataset.currentLang || 'en-gb';
   const pageKey = html.dataset.pageKey || 'home';
   const rootPath = html.dataset.rootPath || '.';
+  const rootLanguage = html.dataset.rootLanguage || 'en-gb';
   const pageMap = {
     home: 'index.html',
     privacy: 'privacy-policy.html',
@@ -17,7 +18,7 @@
   const siteRoot = new URL((rootPath.endsWith('/') ? rootPath : rootPath + '/') , window.location.href);
 
   function buildTargetUrl(lang) {
-    const prefix = lang === 'en' ? '' : `lang/${lang}/`;
+    const prefix = lang === rootLanguage ? '' : `lang/${lang}/`;
     return new URL(prefix + pageFile, siteRoot).href;
   }
 
