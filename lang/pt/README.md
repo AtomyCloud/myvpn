@@ -1,4 +1,17 @@
-_Leia isto em outros idiomas: [English](../../README.md), [Español](../es/README.md), [Français](../fr/README.md), [Italiano](../it/README.md), [Deutsch](../de/README.md), [Português](README.md)_
+<div align="center">
+
+_Leia isto em outros idiomas:_
+
+<kbd>[<img title="English" alt="English" src="https://cdn.jsdelivr.net/gh/hjnilsson/country-flags@master/svg/gb.svg" width="44">](README.md)</kbd>
+<kbd>[<img title="Español" alt="Español" src="https://cdn.jsdelivr.net/gh/hjnilsson/country-flags@master/svg/es.svg" width="44">](lang/es/README.md)</kbd>
+<kbd>[<img title="Français" alt="Français" src="https://cdn.jsdelivr.net/gh/hjnilsson/country-flags@master/svg/fr.svg" width="44">](lang/fr/README.md)</kbd>
+<kbd>[<img title="Italiano" alt="Italiano" src="https://cdn.jsdelivr.net/gh/hjnilsson/country-flags@master/svg/it.svg" width="44">](lang/it/README.md)</kbd>
+<kbd>[<img title="Deutsch" alt="Deutsch" src="https://cdn.jsdelivr.net/gh/hjnilsson/country-flags@master/svg/de.svg" width="44">](lang/de/README.md)</kbd>
+<kbd>[<img title="Português" alt="Português" src="https://cdn.jsdelivr.net/gh/hjnilsson/country-flags@master/svg/pt.svg" width="44">](lang/pt/README.md)</kbd>
+
+</div>
+
+<div align="center">
 
 # MyVPN
 
@@ -24,6 +37,8 @@ Rápida. Privada. Segura. Moderna.
   <img src="https://img.shields.io/badge/Protocols-OpenVPN%20%7C%20VeRay%20%7C%20WireGuard-00C2FF?style=flat-square" alt="Protocols">
   <img src="https://img.shields.io/badge/Servers-Free%20%26%20Premium-FF4FD8?style=flat-square" alt="Servers">
 </p>
+
+</div>
 
 # MyVPN para Android - Notas de versão
 ## Versão 1.0.3
